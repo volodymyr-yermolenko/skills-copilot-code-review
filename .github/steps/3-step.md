@@ -88,7 +88,7 @@ Let's create specific Copilot's review considerations for the frontend and backe
 
    ```markdown
    ---
-   applyTo: "*.html,*.css,*.js"
+   applyTo: "src/static/**/*.html,src/static/**/*.css,src/static/**/*.js"
    ---
 
    ## Frontend Guidelines
@@ -110,7 +110,7 @@ Let's create specific Copilot's review considerations for the frontend and backe
 
    ```markdown
    ---
-   applyTo: "backend/**/*,*.py"
+   applyTo: "src/backend/**/*.py,src/*.py"
    ---
 
    ## Backend Guidelines

@@ -1,5 +1,5 @@
 ---
-applyTo: "*.html,*.css,*.js"
+applyTo: "src/static/**/*.html,src/static/**/*.css,src/static/**/*.js"
 ---
 
 ## Frontend Guidelines
